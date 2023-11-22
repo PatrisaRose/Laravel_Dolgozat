@@ -1,0 +1,87 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "organisator",
+    "dateExported": "2023-11-22T18:01:18.258Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8a912379-1c51-4f92-9a1d-fde0a1c3b4ed",
+            "colId": "f092e3f5-0d7e-4faf-8894-b6f4604cd003",
+            "containerId": "",
+            "name": "get_organisator",
+            "url": "http://localhost:8000/api/organisators",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-22T17:51:24.002Z",
+            "modified": "2023-11-22T17:51:37.926Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5a57d1e9-3331-4f40-bfb4-1961ffc0192b",
+            "colId": "f092e3f5-0d7e-4faf-8894-b6f4604cd003",
+            "containerId": "",
+            "name": "post_organisator",
+            "url": "http://localhost:8000/api/organisators?name=Név&description=Leírás",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-11-22T17:53:09.922Z",
+            "modified": "2023-11-22T17:54:24.307Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Név",
+                    "isPath": false
+                },
+                {
+                    "name": "description",
+                    "value": "Leírás",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "3cb33610-ecc1-4156-adca-da419d32c482",
+            "colId": "f092e3f5-0d7e-4faf-8894-b6f4604cd003",
+            "containerId": "",
+            "name": "put_organisator",
+            "url": "http://localhost:8000/api/organisators/1?name=feds&description=af",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-11-22T17:54:43.986Z",
+            "modified": "2023-11-22T17:59:30.289Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "feds",
+                    "isPath": false
+                },
+                {
+                    "name": "description",
+                    "value": "af",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "41437836-97fd-4006-94f4-855b7080f3a4",
+            "colId": "f092e3f5-0d7e-4faf-8894-b6f4604cd003",
+            "containerId": "",
+            "name": "http://localhost:8000/api/organisators",
+            "url": "http://localhost:8000/api/organisators/1",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-11-22T17:59:40.147Z",
+            "modified": "2023-11-22T18:00:01.352Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
